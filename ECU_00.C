@@ -1,4 +1,5 @@
- char interrupt_200 = 0;
+#include "init.h"
+char interrupt_200 = 0;
 char interrupt_400 = 0;
 
 int gear[8] = {1,2,4,8,16,32,64,128};
